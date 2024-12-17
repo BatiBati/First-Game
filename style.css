@@ -1,0 +1,22 @@
+#game_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin: auto;
+}
+
+.card {
+    margin: 1px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(165, 162, 158);
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.4s;
+}
+.card:hover{
+    transition: all;
+    transition-duration: 0.4s;
+    transform: scale(1.1, 1.1);
+}
