@@ -19,11 +19,17 @@ const cardValues = [
   "8",
   "8",
 ];
-console.log(cardValues);
 
 function cardShuffle (shuffle) {
-// for ()
+for (let i = shuffle.length - 1; i >= 0; i--) {
+  console.log(shuffle[i]);
+  const j = Math.floor(Math.random()i+1);
+
+
+}
 
 } 
  cardShuffle(cardValues);
 
+ 
+ console.log(j);
